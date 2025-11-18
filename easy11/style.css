@@ -1,0 +1,9 @@
+div{
+    background-color: pink;
+    color: red;
+    margin: 50px;
+    border-color: gold; 
+    border-width: 25px;
+    border-style: dotted;
+    padding: 20px;
+}
