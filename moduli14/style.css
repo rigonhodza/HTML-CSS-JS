@@ -1,0 +1,29 @@
+article p{
+     background-color: red;
+     color: white;
+}
+article div p{
+    background-color: blue;
+    color: white; 
+ }
+ article > p{
+background-color: greenyellow;
+ }
+ article ~ p{
+background-color: fuchsia;
+ }
+ article + p{
+    background-color: rebeccapurple;
+ }
+input:out-of-range {
+    border: 2px solid red;
+}
+input:in-range{
+    border: 2px solid green;
+}
+main p:last-child{
+    background-color: pink;
+}
+a:hover {
+    background-color: blueviolet;
+}
