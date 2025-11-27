@@ -24,6 +24,26 @@ input:in-range{
 main p:last-child{
     background-color: pink;
 }
-a:hover {
+#link:hover {
     background-color: blueviolet;
+}
+nav a{
+    padding: 20px;
+    margin: 20px;
+}
+nav {
+    background-color: rgb(144, 144, 221);
+    margin: 20px;
+padding: 20px;
+}
+
+nav a:hover{
+    background-color: rgb(116, 116, 252);
+}
+
+nav a:active{
+background-color: rgb(49, 219, 224);
+}
+nav a:visited {
+    color: yellow;
 }
