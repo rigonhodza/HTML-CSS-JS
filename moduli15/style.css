@@ -23,3 +23,58 @@ div#div3{
     top: 100px;
     right: 150px;
 }
+#parent{
+position: relative;
+width: 250px;
+height: 250px;
+border: 3px solid black;
+}
+#child{
+position: absolute;
+width: 200px;
+height: 200px;
+background-color: blue;
+right: 100px;
+top: 100px;
+}
+#horizontal ul{
+    list-style-type: none;
+    background-color: rgb(29, 11, 29);
+    margin-bottom: 100px;
+    overflow: hidden;
+    padding: 30px;
+}
+#horizontal ul li{
+float: left;
+}
+#horizontal ul li a{
+    color: white;
+    padding: 50px;
+    text-decoration: none;
+}
+
+#horizontal ul li a:hover{
+    background-color: rgb(124, 119, 119);
+}
+
+#vertical ul{
+    list-style-type: none;
+    background-color: rgb(196, 70, 196);
+    margin-bottom: 120px;
+    overflow: hidden;
+    padding: 40px;
+}
+#vertical ul li{
+     padding: 20px;
+    
+}
+
+#vertical ul li a{
+     color: rgb(84, 170, 196);
+    padding: 60px;
+    text-decoration: none;
+}
+
+#horizontal ul li a:hover{
+    background-color: rgb(209, 21, 21);
+}
