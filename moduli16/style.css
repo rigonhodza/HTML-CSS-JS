@@ -1,0 +1,47 @@
+.sprite{
+    background: url(image\ \(2\).png);
+}
+
+.enggeniers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0 0;
+}
+
+.hipster{
+ width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0px -500px;
+}
+
+.shadow{
+ width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px 0px;
+}
+
+.speedster{
+     width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+
+[class*="ds"]{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+[class~="ds"]{
+    background-color: aquamarine;
+    color: brown;
+    padding: 30px;
+}
+
+input[placeholder$="Name"]{
+    border: 2px solid red;
+}
