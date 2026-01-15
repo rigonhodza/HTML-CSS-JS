@@ -1,13 +1,15 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(26, 26, 53);
-    color: rgb(176, 228, 210);
+    background-color: rgb(107, 255, 223);
+    color: rgb(255, 255, 255);
+font-style: var(100px);
+font-style: bold;
 }
 
 nav{
 margin: 10px;
 display: inline-block;
-background: blueviolet;
+background: rgb(244, 233, 255);
 width: 100px;
 }
 
@@ -27,7 +29,7 @@ nav a{
     text-decoration: none;
     border: 1 px solid transparent;
     transition: 0.25s;
-    color: white;
+    color: rgb(255, 255, 255);
     padding-right: 100px;
 }
 
@@ -35,4 +37,40 @@ nav img{
 width: 65px;
 height: 65px;
 float: left;
+}
+
+p {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background:url(craiyon_165506_Bonjour__j_aurai_besoin_d_un_dessin_de_cerveau_humain_qui_permettent_d_illustrer_trois_zones_du_cerv.png);
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
 }
