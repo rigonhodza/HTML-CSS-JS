@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+nav { 
+    padding: 10px;
+    background-color: deepskyblue;
+    margin:10px;
+}
+ nav li a {
+    text-decoration: none; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    float: left;
+    
+
+;}
+
+   
+ 
+nav img { 
+    width: 65px;
+    height: 65px;
+    float: left; }
+ nav ul {
+    list-style: none;
+    text-align: center;
+ }
