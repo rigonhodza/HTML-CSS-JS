@@ -1,0 +1,24 @@
+#horizontal ul{
+    list-style-type: none;
+    background-color: rgb(153, 33, 153);
+    margin-bottom: 100px;
+    overflow: hidden;
+    padding: 30px;
+    float: right;
+}
+#horizontal ul li{
+float: left;
+}
+#horizontal ul li a{
+    color: white;
+    padding: 166px;
+    text-decoration: none;
+}
+
+#horizontal ul li a:hover{
+    background-color: rgb(124, 119, 119);
+}
+
+#horizontal ul li a:hover{
+    background-color: rgb(209, 21, 21); 
+}
