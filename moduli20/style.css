@@ -7,11 +7,11 @@
     float: right;
 }
 #horizontal ul li{
-float: left;
+float: right;
 }
 #horizontal ul li a{
     color: white;
-    padding: 166px;
+    padding:158px;
     text-decoration: none;
 }
 
@@ -21,4 +21,12 @@ float: left;
 
 #horizontal ul li a:hover{
     background-color: rgb(209, 21, 21); 
+}
+ 
+
+
+span{
+    color: rgb(255, 255, 255);
+    font-size:25px;
+
 }
