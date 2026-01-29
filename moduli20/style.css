@@ -1,32 +1,209 @@
-#horizontal ul{
-    list-style-type: none;
-    background-color: rgb(153, 33, 153);
-    margin-bottom: 100px;
+nav ul {
+    padding: 35px;
     overflow: hidden;
-    padding: 30px;
+    background-color: rgb(144, 74, 154);
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: flex;
     float: right;
+    list-style-type: none;
+    align-content: space-between;
 }
-#horizontal ul li{
-float: right;
-}
-#horizontal ul li a{
-    color: white;
-    padding:158px;
+
+nav ul li a {
+    margin-top: 15px;
     text-decoration: none;
+    margin-left: 75px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
-#horizontal ul li a:hover{
-    background-color: rgb(124, 119, 119);
+span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-left: 95px;
 }
 
-#horizontal ul li a:hover{
-    background-color: rgb(209, 21, 21); 
+header {
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    background-color: rgb(144, 74, 154);
+    margin-bottom: 170px;
+    padding: 20px;
+    padding-bottom: 85px;
+    margin-left: -20px;
+    margin-top: -30px;
 }
- 
 
+#oo {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 155px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
 
-span{
+button {
+    display: block;
+    margin: auto;
+    align-content: center;
+    padding: 15px 35px;
+    color: white;
+    background-color: rgb(255, 111, 0);
+    font-size: large;
+    border: solid 0px orange;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+img {
+    margin-top: -30px;
+}
+
+#service {
+    margin-top: -35px;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#vertical-line {
+    width: 80px;
+    height: 5px;
+    background-color: gray;
+    margin-top: 155px;
+    margin: 10px auto 0px;
+}
+
+body {
+    background-color: rgb(80, 219, 161);
+}
+
+#teksti {
+    font-size: 30px;
+    color: white;
+    font-family: Open Sans Regular, sans-serif;
+    margin-top: 135px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(80, 219, 161);
+    display: block;
+    padding: 13px;
+    padding-top: 30px;
+    margin: 20px;
+    overflow: hidden;
+    float: left;
+    margin-left: 45px;
+    margin-top: 210px;
+}
+
+#red {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
-    font-size:25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
 
+#tekst1 {
+    font-family: Open Sans Regular, sans-serif;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#redflag {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 85px;
+    height: 70px;
+}
+
+#design {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#tekst2 {
+    font-family: Open Sans Regular, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+#tekst3 {
+    font-family: Open Sans Regular, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+#settings {
+    margin-bottom: 20px;
+    margin-left: 112px;
+    width: 85px;
+    height: 70px;
+}
+
+#r1 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#tekst4 {
+    font-family: Open Sans Regular, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#tekst4 {
+    font-family: Open Sans Regular, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#raketa {
+    margin-bottom: 200px;
+    margin-left: 135px;
+    width: 85px;
+    height: 70px;
+}
+
+#touch {
+    font-size: 55px;
+    margin-top: 750px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
