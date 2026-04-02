@@ -1,7 +1,24 @@
-var mosha=7
+var wakeuptime;
+var dstime;
+var sleeptime;
+var noon = 12;
 
-if(mosha<8){
-    document.write("Femija yt nuk mundet me u regjistru sepse esht i vogel")
-}else{
-    document.write("Femija yt mundet vetem prite telefonaten per grupin e tij")
-}
+function showCurrentTime(){
+    var clock = document.getElementById('clock')
+    var currentTime = new Date()
+
+    var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+
+            var merdian = "AM";
+
+            if(hours >= noon){
+                mardian = "PM";
+            }
+
+            var clockTime = hours + ":" + minutes + ":" + seconds + " " + merdian;
+            clock.innerHTML = clockTime;
+            changeImage();
+
+};

@@ -22,3 +22,7 @@ var pg = document.getElementById('pg')
 ifundit.onclick=function(){
     pg.setAttribute("class","paragrafi")
 }
+
+CSSNumericValue.onclick = function() {
+    
+}
